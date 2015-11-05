@@ -1,0 +1,21 @@
+{
+  "name": "algeria",
+  "version": "0.0.1",
+  "description": "Administrative, location,.. information about Algeria",
+  "repository": {
+    "type": "git",
+    "url": "git+https://rouabhi@bitbucket.org/rouabhi/algeria.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "geo",
+    "maps"
+    ],
+  "author": {
+    "name": "Samir ROUABHI",
+    "email": "rouabhi@gmail.com"
+  },
+  "license": "GNU GPL v2",
+  "readmeFilename": "README.md",
+  "dependencies": {}
+}
