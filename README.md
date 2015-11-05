@@ -1,4 +1,4 @@
-# geolibri #
+# algeria #
 
 **algeria** is a simple Node.js package that provides administrative, location,.. information about algeria.
 
