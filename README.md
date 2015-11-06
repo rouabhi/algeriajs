@@ -17,7 +17,7 @@ var dz = require('algeria');
 
 where ```id``` is between 1 and 48.
 
-```field``` can be ```id```, ```name```, ```longName```, ```latitude```, ```longtitude```.
+```field``` can be ```id```, ```name```, ```longName```, ```position```, ```latitude```, ```longitude```.
 
 If ```field``` is not given, an abject with all available information is returned.
 
@@ -26,9 +26,8 @@ If ```field``` is not given, an abject with all available information is returne
     dz.wilaya(16,'name') // "Alger"
     dz.wilaya(15,'longName') // "Wilaya de Tizi Ouzou"
     dz.wilaya(6, 'id') // "06"
+    dz.wilaya(11, 'position') // { lat: 24.0982893, lng: 3.743509 }
 ```
-
- **Latitude and longitude fields are not filled yet.**
 
  ### wilaya.each ###
  A loop through wilayas.
