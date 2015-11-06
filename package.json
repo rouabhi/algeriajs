@@ -1,15 +1,17 @@
 {
   "name": "algeria",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Administrative, location,.. information about Algeria",
   "repository": {
     "type": "git",
-    "url": "git+https://rouabhi@bitbucket.org/rouabhi/algeria.git"
+    "url": "https://github.com/rouabhi/algeriajs.git"
   },
   "main": "index.js",
   "keywords": [
     "geo",
-    "maps"
+    "maps",
+    "algeria",
+    "dz"
     ],
   "author": {
     "name": "Samir ROUABHI",
@@ -17,5 +19,7 @@
   },
   "license": "GNU GPL v2",
   "readmeFilename": "README.md",
-  "dependencies": {}
+  "dependencies": {
+    "clone":"*"
+  }
 }
