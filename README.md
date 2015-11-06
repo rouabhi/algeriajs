@@ -26,7 +26,7 @@ If ```field``` is not given, an abject with all available information is returne
     dz.wilaya(16,'name') // "Alger"
     dz.wilaya(15,'longName') // "Wilaya de Tizi Ouzou"
     dz.wilaya(6, 'id') // "06"
-    dz.wilaya(11, 'position') // { lat: 24.0982893, lng: 3.743509 }
+    dz.wilaya(11, 'position') // { latitude: 24.0982893, longitude: 3.743509 }
 ```
 
  ### wilaya.each ###
